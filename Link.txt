@@ -1,0 +1,9 @@
+https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+
+https://github.com/ufoym/imbalanced-dataset-sampler
+
+https://github.com/MaxHalford/pytorch-resample
+
+https://elitedatascience.com/imbalanced-classes
+
+https://medium.com/analytics-vidhya/accuracy-on-imbalanced-datasets-and-why-you-need-confusion-matrix-937613bf89bf
