@@ -2,22 +2,22 @@
 This repository is assignment from Applied Computer Vision course in National Chiao Tung University. Please use this repo for learning purposes only. It is far from perfect if you use it for research purpose.
 
 ## Methods
-This repo implement two of many ways to handle imbalance dataset. The code is based on Pytorch. The methods are:
 
 ### Full Homework Problem
-You could see the full problem here:
+You could see the full problem here:<br>
 [Click this link](https://github.com/alexivaner/Applied-CV-Handling-CIFAR10-Imbalance-Datasets/blob/main/ACV_HW3.pdf)
 
+This repo implement two of many ways to handle imbalance dataset. The code is based on Pytorch. The methods are:<br>
 
 #### Data Composition
-Data training composed as below:
+Data training composed as below:<br>
 ![Data Imbalance](https://github.com/alexivaner/Applied-CV-Handling-CIFAR10-Imbalance-Datasets/blob/main/image/Longtail.png)
 
 Data test composed with 1000 data for each class or label so the total of data test will be 10000 datas.
 
 
 #### FIRST METHOD – RESAMPLE THE DATA TRAINING
-A widely adopted technique for dealing with highly unbalanced datasets is called resampling. It consists of removing samples from the majority class (under-sampling) and / or adding more examples from the minority class (over-sampling) like what shown below:
+A widely adopted technique for dealing with highly unbalanced datasets is called resampling. It consists of removing samples from the majority class (under-sampling) and / or adding more examples from the minority class (over-sampling) like what shown below:<br>
 ![Data Resample](https://github.com/alexivaner/Applied-CV-Handling-CIFAR10-Imbalance-Datasets/blob/main/image/Resampling.png)
 
 ### SECOND METHOD – APPLY THE LOSS REWEIGHTING
@@ -30,18 +30,18 @@ I do not upload the checkpoint or my pretrained model here since the size is mor
 [Click this link](https://drive.google.com/file/d/11DDSbPqFXLzooIv6YPmXuKRIZJ24808g/view)<br>
 
 
-Then the checkpoint model inside `/cifar10_models/state_dicts/` <br>
+Then put the checkpoint model inside `/cifar10_models/state_dicts/` <br>
 
 Thank you for huyvnphan for providing pretrained model for CIFAR-10, I also took model code from his repository, here is his full repository:<br>
 [Click this link](https://github.com/huyvnphan/PyTorch_CIFAR10)<br>
 
 
-You could run the program by following example:
-Default (Without resampling and weight rebalancing)
+You could run the program by following example::<br>
+Default (Without resampling and weight rebalancing):<br>
  `python 0860812.py`
-Turn on Resampling only
+Turn on Resampling only:<br>
  `python 0860812.py --resampling_balance True`
-Turn on loss reweighting only
+Turn on loss reweighting only:<br>
  `python 0860812.py -- reweight_balance True`
 
 ## Result
