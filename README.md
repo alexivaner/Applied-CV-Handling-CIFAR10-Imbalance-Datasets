@@ -43,11 +43,11 @@ Thank you for huyvnphan for providing pretrained model for CIFAR-10, I also took
 
 You could run the program by following example::<br>
 Default (Without resampling and weight rebalancing):<br>
- `python 0860812.py`
-Turn on Resampling only:<br>
- `python 0860812.py --resampling_balance True`
+ `python 0860812.py` <br>
+Turn on Resampling only: <br>
+ `python 0860812.py --resampling_balance True` <br>
 Turn on loss reweighting only:<br>
- `python 0860812.py -- reweight_balance True`
+ `python 0860812.py -- reweight_balance True` <br>
 
 ## Result
 ### Accuracy Comparison
