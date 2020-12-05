@@ -7,11 +7,11 @@ This repository is assignment from Applied Computer Vision course in National Ch
 You could see the full problem here:<br>
 [Click this link](https://github.com/alexivaner/Applied-CV-Handling-CIFAR10-Imbalance-Datasets/blob/main/ACV_HW3.pdf)
 
-This repo implement two of many ways to handle imbalance dataset. The code is based on Pytorch. The methods are:<br>
-
 #### Data Composition
 Data training composed as below:<br>
 ![Data Imbalance](https://github.com/alexivaner/Applied-CV-Handling-CIFAR10-Imbalance-Datasets/blob/main/image/Longtail.png)
+
+This repo implement two of many ways to handle imbalance dataset. The code is based on Pytorch. The methods are:<br>
 
 Data test composed with 1000 data for each class or label so the total of data test will be 10000 datas.
 
